@@ -4,3 +4,4 @@ Gmail clone using React Demo
 
 **Database** - Firebase
 **Frontend** - React Redux
+**Icons** - Material UI
