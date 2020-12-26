@@ -5,10 +5,11 @@ Gmail clone using React Demo
 **Database** - Firebase
 **Frontend** - React Redux
 **Icons** - Material UI
+**Routing** - React Router
 
 ## Header Section:
 
-- **Material UI:**:
+- **Material UI:**
   - MenuIcon
   - IconButton
   - SearchIcon
@@ -17,3 +18,21 @@ Gmail clone using React Demo
   - SettingsIcon
   - AppsIcon
   - AccountCirclIcon
+
+## Sidebar Section:
+
+- **Material UI:**
+  - Button
+  - IconButton
+  - AddIcon
+  - SidebarOption
+  - InboxIcon
+  - StarRateIcon
+  - WatchLaterIcon
+  - LabelImportantIcon
+  - SendIcon
+  - InsertDriveFileIcon
+  - ExpandMoreIcon
+  - PersonIcon
+  - DuoIcon
+  - PhoneIcon
