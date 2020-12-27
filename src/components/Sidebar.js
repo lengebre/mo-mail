@@ -19,7 +19,7 @@ function Sidebar() {
   return (
     <div className="sidebar">
       <Button>
-        <Add fontSize="16px" />
+        <Add fontSize="15px" />
         Compose
       </Button>
       <SidebarOption Icon={Inbox} title="Inbox" number={77} selected={true} />

@@ -6,9 +6,11 @@
 
 .sidebar > .MuiButton-root {
   text-transform: capitalize;
-  font-size: 14px;
+  font-size: 0.875rem;
+  letter-spacing: 0.25px;
   font-weight: 500;
-  background-color: rgb(250, 250, 251);
+  background-color: #fff;
+  color: #3c4043;
   height: 48px;
   width: 120.672px;
   border: 0px none rgb(60, 64, 67);
