@@ -1,4 +1,5 @@
 import { Checkbox, IconButton } from "@material-ui/core";
+import EmailRow from "./EmailRow";
 import {
   ArrowDropDown,
   ChevronLeft,
@@ -11,8 +12,8 @@ import {
   Redo,
   Settings,
 } from "@material-ui/icons";
-import "./EmailList.css";
 import Section from "./Section";
+import "./EmailList.css";
 
 function EmailList() {
   return (
@@ -30,7 +31,6 @@ function EmailList() {
             <MoreVert />
           </IconButton>
         </div>
-
         <div className="emailList__settingsRight">
           <IconButton>
             <ChevronLeft />
@@ -51,6 +51,20 @@ function EmailList() {
         <Section Icon={Inbox} title="Primary" color="red" selected />
         <Section Icon={People} title="Social" color="#1A73E8" />
         <Section Icon={LocalOffer} title="Promotions" color="green" />
+      </div>
+      <div className="emailList__list">
+        <EmailRow
+          title="Title"
+          subject="Subject"
+          description="this is the description"
+          time="10:15am"
+        />
+        <EmailRow
+          title="Title"
+          subject="Subject 2"
+          description="this is the description"
+          time="12:15am"
+        />
       </div>
     </div>
   );

@@ -11,10 +11,6 @@
   z-index: 999;
   padding-right: 10px;
 }
-.emailList__settingsLeft {
-}
-.emailList__settingsRight {
-}
 
 .emailList__sections {
   position: sticky;
