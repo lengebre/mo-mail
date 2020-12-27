@@ -54,16 +54,28 @@ function EmailList() {
       </div>
       <div className="emailList__list">
         <EmailRow
-          title="Title"
-          subject="Subject"
+          title="Email 1"
+          subject="Subject 1"
           description="this is the description"
           time="10:15am"
         />
         <EmailRow
-          title="Title"
+          title="Email 2"
           subject="Subject 2"
           description="this is the description"
-          time="12:15am"
+          time="09:15am"
+        />
+        <EmailRow
+          title="Email 3"
+          subject="Subject 3"
+          description="this is the description"
+          time="08:15am"
+        />
+        <EmailRow
+          title="Email 4"
+          subject="Subject 4"
+          description="this is the description"
+          time="07:15am"
         />
       </div>
     </div>
