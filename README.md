@@ -36,3 +36,17 @@ Gmail clone using React Demo
   - PersonIcon
   - DuoIcon
   - PhoneIcon
+
+# EmailList
+
+- **Material UI:**
+  - ArrowDropDownIcon
+  - ChevronLeftIcon
+  - ChevronRightIcon
+  - InboxIcon
+  - KeyboardHideIcon
+  - LocalOfferIcon
+  - MoreVertIcon
+  - PeopleIcon
+  - RedoIcon
+  - SettingsIcon
