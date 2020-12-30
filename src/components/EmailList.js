@@ -65,24 +65,6 @@ function EmailList() {
           description="this is the description"
           time="09:15am"
         />
-        <EmailRow
-          title="Email 3"
-          subject="Subject 3"
-          description="this is the description"
-          time="08:15am"
-        />
-        <EmailRow
-          title="Email 4"
-          subject="Subject 4"
-          description="this is the description"
-          time="07:15am"
-        />
-        <EmailRow
-          title="Email 5"
-          subject="Subject 5"
-          description="this is the description"
-          time="08:15am"
-        />
       </div>
     </div>
   );
